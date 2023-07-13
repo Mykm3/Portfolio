@@ -1,0 +1,623 @@
+
+
+
+
+
+.Descripton{    
+    margin-top: 0px;
+    background-color: black;
+    color: rgb(218, 210, 210) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 1;
+    }
+.Hi{
+       font-size: 1.5vw; 
+    }
+.Michael{
+    font-size: 3vw;
+    }
+.Frontend{
+    color: white;
+    font-size: 2vw;
+    font-weight: 600;
+    }
+.Item_description{
+    font-size: 1.4vw;
+    width: 30vw;
+    color: white;
+    }
+.SVG{
+    width: 50vw;
+    opacity: 90%;
+     z-index: 5;
+    height: 40vw;
+    }
+.Intro{
+    position: relative;
+    left: 50px;
+    }
+.Github	{
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border:  solid black;
+    border-width: 5px;
+    background: white;
+    color: black;
+    position: relative;
+    overflow: hidden; 
+    margin-top: 0.5vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+    width: 20vw;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    z-index: 1;
+    cursor:pointer;
+    }
+.Github:hover {
+    background-color: black;
+        border-radius: none;
+        color: aliceblue;
+        transition: 0.5;
+}
+ .Github:active {
+    border-radius: solid;
+    border-color: aliceblue;
+    color: white;
+ }
+ 
+ .large_circle
+{
+    background-color: #212930;
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    top: 10px;
+    left: 55vw;
+    overflow: hidden;
+    opacity: 40%;
+    z-index: 0;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius:50%;
+}
+.small_circle{
+    background-color: #212930;
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    top: 30px;
+    left: 40vw;
+    overflow: hidden;
+    opacity: 30%;
+    z-index: 0;
+    border-radius: 50%;
+}
+
+.small_circle1{
+    background-color: #212930 ;
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    top: 195vw;
+    left: 76vw;
+    overflow: hidden;
+    opacity: 30%;
+    z-index: 0;
+    border-radius: 50%;
+}
+
+.small_circle2{
+    background-color: #212930;
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: 67vw;
+    left: 65vw;
+    overflow: hidden;
+    opacity: 20%;
+    z-index: -20;
+    border-radius: 50%;
+}
+
+.small_circle3{
+    background-color: #212930;
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: 203vw;
+    left: 72vw;
+    overflow: hidden;
+    opacity: 30%;
+    z-index: -0.5;
+    border-radius: 50%;
+}
+.smaller_circle{
+    background-color: #212930;
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: 40px;
+    left: 33vw;
+    overflow: hidden;
+    opacity: 20%;
+    z-index: 0;
+    border-radius: 50%;
+}
+ 
+.Aboutme_page
+{   
+    position: relative;
+    top: -6vw;
+    margin-top: 10px;
+    height: 50vw;
+    background-color: #212930;
+    width: 100%;
+    z-index: 1;
+}
+.About_meDescript{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.About_topic{
+    color: black;
+    font-size: 4vw;
+    font-weight: 400;
+}
+.quote{
+    color: rgb(218, 210, 210);
+    font-size: 1.5vw;
+    font-weight: 300;
+    margin-top: 5px;
+}
+.line{
+    width:50vw;
+    height: 0.05vw;
+    background-color: white;
+    position: absolute;
+    left: 23vw;
+    border-top-left-radius: 80%;
+    border-bottom-left-radius:80%;
+    border-top-right-radius: 80%;
+    border-bottom-right-radius: 80%;
+}
+.me{
+    
+    width: 75vw;
+    position:absolute;
+    left: 12vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+.My_Description{
+    width: 35vw;
+    display: flex;
+    color:rgb(218, 210, 210) ;
+    font-size: 1.4vw;
+    padding-top: 50px;
+    font-style: italic;
+    font-weight: 300;
+}
+.My_picture{
+    width: 25vw;
+    height: 25vw;
+    padding-top: 80px;
+    /* border-radius: 50%; */
+    z-index: 100;
+}
+ 
+
+#contactUs{
+    color: white ;
+    font-size: 4vw;
+    font-weight: 300;
+}
+#reachOut{
+    position: relative;
+    top: -20px;
+    color: white ;
+    font-size: 1.6vw;
+    font-weight: 200;
+}
+
+#The_forms{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+
+}
+#The_form{
+    
+    background-color: #212930;
+    border-radius: 10px;
+    color: white ;
+    width: 60vw;
+    padding: 4vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#sendMsg{
+    font-weight: 200;
+    font-size: 2vw;
+    z-index: 5;
+    color: white;
+}
+#line1{
+    position: relative;
+    width: 100%;
+    height: 0.3vw;
+    background-color:white ;
+}
+#line2{
+    position: relative;
+    width: 60vw;
+    height: 0.1vw;
+    background-color:white ;
+}
+#line3{
+    position: relative;
+    width: 60vw;
+    height: 0.1vw;
+    background-color:white ;
+}
+#line4{
+    position: relative;
+    width: 60vw;
+    height: 0.3vw;
+    background-color: white ;
+}
+.alignInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#name{
+    padding: 5px;
+    background-color: #212930;
+    outline: none;
+    color: white;
+    font-weight: 200;
+    font-size: 1.5vw;
+    height: 2vh;
+}
+#submit{
+    font-weight: 200;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 80%;
+    height: 5vw;
+    border-radius: 0.5vw;
+    background-color: white;
+    font-size: 1.3vw;
+    color: #212930;
+    
+}
+
+.us{
+    font-weight: 200; font-size: 1.5vw;
+    text-align: left ;
+}
+.information{
+    color:rgb(218, 210, 210); font-weight: 100;font-size: 1vw;
+}
+.infoLink{
+    color:rgb(218, 210, 210); font-weight: 100;font-size: 1vw; text-decoration: none;
+}
+
+.myInfo{
+    width: 100%;
+    text-align: left;
+    font-size: 4vw;
+}
+
+
+footer{
+    width:91%;
+    padding: 4vw;
+    background-color: black;
+    border-top-style: solid;
+    border-top-width: 0.2vw;
+    border-top-color:  black;
+    border-bottom-style: solid;
+    border-bottom-width: 0.2vw;
+    border-bottom-color:  black;
+    position: relative;
+    top: 7vw;
+    left: 0;
+    color:rgb(218, 210, 210);
+    font-size: 1.2vw;
+    font-weight: 200;
+    opacity: 80%;
+    }
+    .footerdescript{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 0.7vw;       
+    }
+    #foothead{
+        animation-name: rotate-animation1;
+        animation-iteration-count: infinite;
+        animation-duration:2s;
+    }
+    
+    @keyframes rotate-animation1{
+        0%{transform: rotateY(360deg);}
+        }
+    
+    .inside_footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 10vw;
+    }
+    
+    .suscribeButton{
+        padding: 0.5vw;
+        background-color: white ;
+         color: black;
+        width: 6vw;
+        font-size: 1vw;
+    }
+    .emailAddress{
+        width: 15vw;
+        padding: 0.5vw;
+        outline: none;
+        background-color: black;
+        color: white;
+        font-size: 1vw;
+        font-weight: 100;
+    }
+    
+    .suscribeButton:hover{
+        font-size: 0.9vw;
+        cursor: pointer;
+        border-radius: 5px;
+        border-style: solid;
+        
+    }
+    .copyright{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+    }
+    #doImages{
+        font-size: 1.2vw;
+    }
+    .itemTopic{
+        font-size: 1.5vw; color: rgb(155, 212, 173); font-weight: 400;
+    }
+    .descriptDiv{
+        width: 25vw;
+        height:20vw;
+    }
+    .thedescript{
+        font-size: 1.2vw; color:rgb(218, 210, 210) ; font-weight: 300;
+    }
+    .whatwedo{
+        color: rgb(155, 212, 173);font-size: 3vw;font-weight: 400;
+    
+    }
+    .we{
+        color:rgb(218, 210, 210);font-size: 2vw;font-weight: 300;
+    }
+
+#submit:hover{
+    border: solid ;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.FormSocial{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vw;
+    font-size: 1.5vw;
+}
+
+
+
+
+
+
+
+
+ *{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+  }
+ .banner{
+     width: 100%;
+     height: 100vh;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+       
+  }
+  .navbar{
+      width: 85%;
+      margin: auto;
+      padding: 35px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; 
+      
+      padding-top: 40px;
+  }
+ 
+  .logo{
+      width: 120px;
+      cursor: pointer;
+    position: relative;
+    left: 5vw;
+    border-radius: 70px 20px 70px 20px;
+    animation-name: rotate-animation;
+    animation-iteration-count: infinite;
+    animation-duration:2s;
+      }
+      @keyframes rotate-animation{
+      0%{transform: rotateY(360deg);}
+      }
+
+    
+    .Header_button{
+    z-index: 1;
+    position: relative;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden; 	
+    background-color: black;
+    }
+    
+    .Header_button:hover{
+    background-color: aliceblue;
+    color: black;
+   
+    }
+   
+    .Header_button:active{
+        opacity: 0.3;
+
+    }
+
+    .navbar ul li{
+       list-style: none;
+       display: inline-block;
+       margin: 0 20px;
+    position: relative;
+   }
+    .navbar ul li a{    
+     text-decoration: none;
+     color: black;
+     text-transform: uppercase;
+   }	
+    .navbar ul li::after{
+        content:'';
+        height: 3px;
+        width: 0%;
+        background: black;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+    }	
+    .navbar ul li:hover::after{
+        width:100%;
+    }
+
+    .content{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: black;
+    }
+    .content h1{
+        font-size:70px;
+        margin-top: 80px;
+    }
+
+    .content p{
+        margin: 20px auto;
+        font-weight: 100;
+        line-height: 25px;
+    }
+    .button {
+        width: 200px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid black;
+        background: transparent;
+        color: black;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden; 	
+            }
+    .span {
+        background: #0096;
+        height: 100%;
+        width: 0;
+        border-radius: 25px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;		
+        transition: 0.5s;
+        }
+    .button:hover {
+        background-color: black;
+        border-radius: none;
+        color: aliceblue;
+        transition: 0.5;
+        }
+    .button:active {
+        border-radius: solid;
+        border-color: aliceblue;
+        color: white;
+        }    
+        
+    .description{
+        
+
+
+
+
+    }
+    
+        .copyright {
+        font-weight: 100;
+        line-height: 25px;
+        font-size: 12px;
+        margin-top: 10px;
+        
+    } 
+    .copyright:hover{
+        cursor: pointer;
+    }
+    .contact{
+        font-weight: 100;
+        line-height: 25px;
+        font-size: 12px;
+    }	
+    
+
+
